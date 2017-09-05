@@ -1,51 +1,24 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>ALT 2018</title>
-    <meta name="keywords" content="ALT, algorithmic learning theory, conference">
-    <meta name="description"
-	  content="Official Web Page of the 29th International Conference on Algorithmic Learning Theory">
-    <meta name="title" content="ALT 2018">
-    <meta name="author" content="">
-    <link rel="stylesheet" type="text/css" href="./alt.css" title="Style">
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script> 
+    $(function(){
+      $("#meta").load("meta.html"); 
+      $("#header_navbar").load("header_navbar.html"); 
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
+    
+    <div id="meta"></div>
+
   </head>
   <body BGCOLOR="#ffffff">
+
     <div class=container>
-      <!-- begin banner -->
-      <div class=banner>
-      <div class=banner_text>
-        <center>
-        <h4>Algorithmic Learning Theory (ALT) 2018</h4>
-        </center>
-      </div> <!-- end banner_text -->
-      </div> <!-- end banner -->
-      
-      <!-- begin navbar -->
-      <div class=navbar>
-        <ul>
-          <li><a href="./index.html">Welcome</a></li>
-          <li><a href="./cfp.html">Call for Papers</a></li>
-          <li><a href="./sub.html">Submissions</a></li>
-          <li><a href="./pc.html">Programme Committee</a></li>
-          <li><a href="./id.html">Important Dates</a></li>
-          <li><a href="./alt2017acc.html">Accepted Papers</a></li>
-          <li><a href="./schedule.pdf">Programme</a><li>
-          <!-- <li><a href="./ifa.html">Instructions for Authors (final paper)</a></li> -->
-          <!-- <li><a href="./gold.html"></li> --> <li><a href="id.html">E.M. Gold Award</a></li>
-          <li><a href="./inv.html">Invited Speakers</a></li>
-          <li><a href="http://www.iip.ist.i.kyoto-u.ac.jp/ds2017/" target="_blank">co-located with<br>DS 2017</a></li>
-          <!-- <li><a href="sub.html">Submissions</a></li> -->
-          <li><a href="./id.html">Proceedings</a></li> 
-          <li><a href="./id.html">Special Issue</a></li>
-          <li><a href="./reg.html">Registration</a></li>
-          <li><a href="./location.html">Travel Information</a></li>
-          <li><a href="http://www.comp.nus.edu.sg/~fstephan/alt/altsteering.html">ALT-Steering<br>Committee</a></li>
-          <!--	  <li><a href="./DS-ALT-poster-300dpi.png">Conference Poster</a></li>-->
-          <li><a href="http://www-alg.ist.hokudai.ac.jp/~thomas/ALTARCH/altarch.jsp">The Archives of ALT-Conferences</a></li>
-          <li><a href="./index.html">Sponsors</a></li> 
-        </ul>
-      </div> <!-- end navbar -->
+      <div id="header_navbar"></div>
+
       <!-- begin content -->
       <div class=content>
         <p>ALT 2018 is hosted at the <a href="#host">University of
@@ -91,16 +64,11 @@
         of Kyoto University</a> for more information.
         <br>  -->
       </div> <!-- content -->
-      <div class=banner_bottom>
-      <div class=banner_bottom_text>
-        <center>
-          <h4>Kyoto, Japan, 15-17 October 2017</h4>
-        </center>
-      </div> <!-- end banner_text -->
-      </div> <!-- end banner -->   
+ 
+
+    <div id="footer"></div>
     </div> <!-- container -->
 
-<?php include 'footer.php';?>
 
 </body>
 </html>
