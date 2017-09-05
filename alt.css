@@ -1,0 +1,180 @@
+body {
+    margin: 20px 20px 20px 70px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.0em;
+    width: 720px;
+}
+ 
+.container {
+    width: auto;
+}
+ 
+.banner {
+    background-image: url("alt2018banner04.jpg");
+    margin-left: 0px;
+    width:771px;
+    height:214px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+ 
+.banner_text {
+    background-color: transparent;
+    color: white;
+    width: 790px;
+    line-height: 180%;
+    padding-top: 1px;
+    padding-left: 10px;
+}
+ 
+.banner_text h3 {
+    font-size: 110%;
+    color: #DDDAD6;
+    margin: 0 auto;
+     font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right:0px;
+    margin-left:160px; 
+}
+ 
+.banner_text h4 {
+    font-size: 110%;
+    padding-left: 0px;
+    padding-top: 0px;
+     font-weight: bold;
+     background:#AE9C96;
+    color: white;
+    margin:0 auto;
+    margin-top: 220px;
+    margin-bottom: 0px;
+    margin-right:29px;
+    margin-left:190px;
+}
+ 
+.banner_bottom {
+    margin-left: 10px;
+    width:668px;
+    height:236px;
+}
+ 
+.banner_bottom_text {
+    background-color: transparent;
+    color: white;
+    width: 800px;
+    line-height: 180%;
+    padding-top: 1px;
+    padding-left: 0px;
+}
+ 
+.banner_bottom_text h4 {
+    font-size: 110%;
+    padding-left: 0px;
+    padding-top: 0px;
+     font-weight: bold;
+     background:#AE9C96;
+    color: white;
+    margin:0 auto;
+    margin-bottom: 0px;
+    margin-right:29px;
+    margin-left:190px;
+}
+ 
+.navbar {
+    float: left;
+    width: 185px;
+    height: auto;
+    padding-top: 50px;
+    font-size: 1.0em;
+    line-height: 0.5em;
+}
+ 
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+.navbar ul li {
+    padding-bottom: 2px;
+    list-style-type: none;
+}
+ 
+.navbar ul li a {
+    color: black;
+    background: #AED8DE;
+    display: block;
+    padding: 5px 0;
+    line-height: 17px;
+    padding-left:8px;
+    text-decoration: none;
+}
+ 
+.navbar ul li a:hover {
+    color: black;
+    background: #DDDAD6;
+}
+ 
+.content {
+    margin-left: 200px;
+    width: 580px;
+    padding-top: 35px;
+}
+ 
+.content h1 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    right: auto;
+    font-style: normal;
+    color: maroon;
+}
+.content h2 {
+    font-size: 1.1em;
+    text-align: left;
+    right: auto;
+    font-style: italic;
+    color: maroon;
+    font-weight: normal;
+}
+h3.footnote {
+    font-weight: normal;
+    font-size: 0.8em;
+    text-align: center;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    background-color: #DDDAD6;
+    color: black;
+    text-decoration: none;
+}
+ 
+li {
+    list-style: circle;
+    font-size: 1.0em;
+    line-height: 1.3em;
+}
+div.image {
+    align: top;
+    margin: 0.5em;
+}
+div.image div {
+    margin-top: 0.5em; 
+    text-align: left;
+}
+ 
+.table.programcommittee {
+    cellpadding: 5;
+    align: left;
+    border: 0;
+    cellspacing: 2;
+    width: 600;
+    text-color: red;
+}
